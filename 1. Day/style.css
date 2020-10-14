@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: 0;
+}
+
+body {
+  background-color: #8EA0DD;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  -webkit-font-smoothing: antialiased;
+}
+
+body,input,button {  
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
+  font-size: 16px;
+}
+
+button {
+  cursor: pointer;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  background-color: azure;
+  width: 980px;
+  height: 673px;
+  filter: drop-shadow(10px 10px 10px rgba(0, 0, 0, 0.25));
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.content {
+  width: 50%;
+  height: 100%;
+}
+
+.sign {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #334D9E;
+}
+
+.title-sign {
+  color: #fff;
+  margin: 125px  0 60px 64px;
+}
+
+.button-sign {
+  margin: 30px 0 0 64px;
+  width: 364px;
+  height: 52px;
+  border: 1px solid #fff;
+  box-sizing: border-box;
+  border-radius: 5px;
+  background-color: transparent;
+  outline: none;
+  color: #fff;
+  font-size: 17px;
+  font-weight: thin;
+}
+
+.button-sign:hover {
+  background-color: #102257;
+  transition: 0.4s;
+}
+
+.login {
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+}
+
+.title-login {
+  color: #283A77;
+  font-weight: 400;
+  margin: 250px 0px 49px 64px;
+}
+
+
+
+input {
+  margin: 8px 0;
+  padding: 0px 20px;
+  width: 350px;
+  height: 39px;
+  border: none;
+  color: #8A8A8A;
+  outline: none;
+  border-bottom: 1px solid #8A8A8A;
+}
+
+input:focus {
+  color: #334D9E;
+  border-bottom: 1px solid #334D9E;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.button-login {
+  margin: 30px 0 0 0;
+  width: 364px;
+  height: 52px;
+  border: 1px solid #fff;
+  box-sizing: border-box;
+  border-radius: 5px;
+  background-color: #334D9E;
+  outline: none;
+  color: #fff;
+  font-size: 17px;
+  font-weight: thin;
+}
+
+.button-login:hover{
+  background-color: #5272d1;
+  transition: 0.4s;
+}
